@@ -35,7 +35,7 @@ p{
     align-self: center;
     align-items: center;
     text-align: center;
-    
+
 }
 .icons{
     display: flex;
@@ -46,4 +46,27 @@ p{
 .icon{
     /* margin-right: 2%; */
     padding: 0 10% 0 10% 
+}
+
+.info_text{
+    display: flex;
+    flex:3;
+    /* background-color: blue; */
+
+}
+.info_pic{
+    display: flex;
+    flex:1;
+    /* background-color: red; */
+    justify-content: end;
+    /* align-self: flex-end; */
+    /* align-content: flex-end; */
+    padding-left: 4%;
+    /* flex-direction: column; */
+    
+}
+.cont{
+    display: flex;
+    padding-bottom: 1%;
+    flex-direction: row;
 }

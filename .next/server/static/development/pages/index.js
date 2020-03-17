@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -279,7 +279,7 @@ class GeneralNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         },
         __self: this
       }, __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2___default.a.Link, {
-        href: "/computer_science",
+        href: "/cs",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
@@ -307,7 +307,7 @@ class GeneralNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         },
         __self: this
       }, "Research"), __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2___default.a.Link, {
-        href: "/research",
+        href: "/personal",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
@@ -316,6 +316,59 @@ class GeneralNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
       }, "Personal"))) //</>
 
     );
+  }
+
+}
+
+/***/ }),
+
+/***/ "./components/Layout.js":
+/*!******************************!*\
+  !*** ./components/Layout.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Layout; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_GeneralFooter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/GeneralFooter */ "./components/GeneralFooter.js");
+/* harmony import */ var _components_GeneralNav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/GeneralNav */ "./components/GeneralNav.js");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Container */ "react-bootstrap/Container");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\raul-\\MIT\\personal\\components\\Layout.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+class Layout extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, __jsx(_components_GeneralNav__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }), this.props.content, __jsx(_components_GeneralFooter__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }));
   }
 
 }
@@ -2025,9 +2078,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap/Col */ "react-bootstrap/Col");
 /* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _components_GeneralFooter__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/GeneralFooter */ "./components/GeneralFooter.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 var _jsxFileName = "C:\\Users\\raul-\\MIT\\personal\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 
 
@@ -2038,68 +2096,58 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return (// < >
-      __jsx("div", {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "getContent", () => {
+      return __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4___default.a, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
-        },
-        __self: this
-      }, __jsx(_components_GeneralNav__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }), __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
         },
         __self: this
       }, __jsx("h1", {
         className: "text-center title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 17
         },
         __self: this
       }, "Raul Alcantara"), __jsx("div", {
         className: "info",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 18
         },
         __self: this
       }, __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 19
         },
         __self: this
       }, __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 20
         },
         __self: this
       }, __jsx("mark", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 21
         },
         __self: this
       }, "Hey there! I am Raul. "), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 21
         },
         __self: this
       }), "I am a student from Peru with a lot of aspirations and dreams. ", __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 22
         },
         __self: this
       }), "Currently, I am studying at the Massachusetts Institute of Technology (MIT).")), __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -2107,7 +2155,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         md: 4,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 26
         },
         __self: this
       }, __jsx(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -2119,25 +2167,29 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         fluid: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 27
         },
         __self: this
-      }))), __jsx(_components_GeneralFooter__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }))) // </>
+      }))));
+    });
+  }
 
-    );
+  render() {
+    return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      content: this.getContent(),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    });
   }
 
 }
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

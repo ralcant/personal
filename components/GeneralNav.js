@@ -10,11 +10,11 @@ export default class GeneralNav extends React.Component{
                     <Navbar.Brand href="/">Home</Navbar.Brand>
                     <Nav className="mr-auto">
                         {/*<Nav.Link href="/about">About</Nav.Link>*/}
-                        <Nav.Link href="/computer_science">Computer Science</Nav.Link>
+                        <Nav.Link href="/cs">Computer Science</Nav.Link>
                         <Nav.Link href="/math">Math</Nav.Link>
                         <Nav.Link href="/projects">Projects</Nav.Link>
                         <Nav.Link href="/research">Research</Nav.Link>
-                        <Nav.Link href="/research">Personal</Nav.Link>
+                        <Nav.Link href="/personal">Personal</Nav.Link>
 
                     </Nav>
                 </Navbar>
