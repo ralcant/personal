@@ -16,7 +16,7 @@ export default class Index extends React.Component{
             <div>
                 <GeneralNav/>
                 <Container >
-                    <h1 className = "title">Raul Alcantara</h1>
+                    <h1 className = "text-center title">Raul Alcantara</h1>
                     <div className = "info">
                         <div>
                             <p>
@@ -30,7 +30,7 @@ export default class Index extends React.Component{
                                 src= "../static/raul_alcantara_2.PNG"
                                 alt = "This is me!"
                                 className = "pic"
-                                rounded ={true}
+                                    rounded ={true}
                                 //roundedCircle = {true}
                                 fluid = {true}
                             />

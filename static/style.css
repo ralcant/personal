@@ -30,7 +30,20 @@ p{
     padding-bottom: 3%;
 }
 .footer{
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     align-self: center;
+    align-items: center;
     text-align: center;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    
+}
+.icon{
+    /* margin-right: 2%; */
+    padding: 0 10% 0 10% 
 }

@@ -119,11 +119,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Tooltip__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Tooltip__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var react_bootstrap_Popover__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Popover */ "react-bootstrap/Popover");
 /* harmony import */ var react_bootstrap_Popover__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Popover__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-social-icons */ "react-social-icons");
+/* harmony import */ var react_social_icons__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_social_icons__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-bootstrap/Row */ "react-bootstrap/Row");
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-bootstrap/Col */ "react-bootstrap/Col");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-bootstrap/Container */ "react-bootstrap/Container");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_11__);
 var _jsxFileName = "C:\\Users\\raul-\\MIT\\personal\\components\\GeneralFooter.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 
 
@@ -133,112 +142,87 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 class GeneralNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(...args) {
-    super(...args);
-
-    _defineProperty(this, "popover", () => {
-      __jsx(react_bootstrap_Popover__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        id: "popover-basic",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
-      }, __jsx(react_bootstrap_Popover__WEBPACK_IMPORTED_MODULE_7___default.a.Title, {
-        as: "h3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, "Popover right"), __jsx(react_bootstrap_Popover__WEBPACK_IMPORTED_MODULE_7___default.a.Content, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, "And here's some ", __jsx("strong", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, "amazing"), " content. It's very engaging. right?"));
-    });
-  }
-
   render() {
-    return __jsx("p", {
-      className: "footer",
+    return __jsx("div", {
+      className: "footer ",
       id: "contact",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 15
+      },
+      __self: this
+    }, __jsx("h4", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
       },
       __self: this
     }, __jsx("strong", {
       __source: {
         fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }, "Contact info")), __jsx("div", {
+      className: "icons",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_10___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_8__["SocialIcon"], {
+      url: "https://www.facebook.com/raulalfredo.alcantaracastillo",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    })), __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_10___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_8__["SocialIcon"], {
+      url: "mailto:ralcanta@mit.edu",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    })), __jsx(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_10___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, __jsx(react_social_icons__WEBPACK_IMPORTED_MODULE_8__["SocialIcon"], {
+      url: "https://github.com/ralcant",
+      bgColor: "black",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }), "  ")), __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
         lineNumber: 22
       },
       __self: this
-    }, "Contact info"), __jsx("p", {
+    }, __jsx("i", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 22
       },
       __self: this
-    }, "Cellphone: (203)524-0315"), __jsx("p", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25
-      },
-      __self: this
-    }, "Email: ", __jsx("a", {
-      href: "mailto:ralcanta@mit.edu",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25
-      },
-      __self: this
-    }, "ralcanta@mit.edu\""))) // <>
-    //     <Navbar fixed="bottom" bg="dark" variant="dark">
-    //         <Navbar.Brand href="https://www.youtube.com/watch?v=QUwxKWT6m7U&list=RDMM1at7kKzBYxI&index=27">Home</Navbar.Brand>
-    //         <Nav className="mr-auto">
-    //             {/*<Nav.Link href="/about">About</Nav.Link>*/}
-    //             <Nav.Link href="/computer_science">Computer Science</Nav.Link>
-    //             <Nav.Link href="/math">Math</Nav.Link>
-    //             <Nav.Link href="/projects">Projects</Nav.Link>
-    //             <Nav.Link href="/research">Research</Nav.Link>
-    //             <Nav.Link href="/research">Personal</Nav.Link>
-    //         </Nav>
-    //     </Navbar>
-    // </>
-    // <div className = "footer">
-    //     <p> Contact </p>
-    //     <Card className="text-center" bg = "light" style={{ width: '50rem' }}>
-    //         <Card.Header>Contact Info</Card.Header>
-    //         <Card.Body>
-    //             <Card.Title>Special title treatment</Card.Title>
-    //             <Card.Title>Special title treatment</Card.Title>
-    //             <Card.Title>Special title treatment</Card.Title>
-    //             <Card.Title>Special title treatment</Card.Title>
-    //             <Card.Title>Special title treatment</Card.Title>
-    //         </Card.Body>
-    //     </Card>
-    // </div>
-
-    /* <>
-        <OverlayTrigger
-            placement=  "bottom"
-            trigger = "click"
-            overlay={this.popover}
-            
-        >
-            <Button variant="secondary">Contact me</Button>
-        </OverlayTrigger>
-    </> */
-    ;
+    }, "Cellphone: (203) 524-0315")));
   }
 
 }
@@ -2075,7 +2059,7 @@ class Index extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         },
         __self: this
       }, __jsx("h1", {
-        className: "title",
+        className: "text-center title",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
@@ -2338,6 +2322,17 @@ module.exports = require("react-bootstrap/Tooltip");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
+
+/***/ }),
+
+/***/ "react-social-icons":
+/*!*************************************!*\
+  !*** external "react-social-icons" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-social-icons");
 
 /***/ }),
 
