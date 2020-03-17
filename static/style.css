@@ -8,11 +8,16 @@ div{
     display: flex;
     flex-direction: column;
 }
-
-ol{
+ul{
+    list-style-type:none;
+}
+/* ul > li{
+    size: 2;
+} */
+/* ol{
     list-style-type:none;
 
-}
+} */
 .pic{
     /* display: flex; */
     /* justify-content: flex-end; */
