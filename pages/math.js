@@ -123,7 +123,7 @@ export default class Math extends React.Component{
                                     <li>
                                         <div>
                                             <div>
-                                                <strong>International Math Olympiad (IMO)</strong>
+                                                <strong>Rioplatense Mathematical Olympiad</strong>
                                                 <ul>
                                                     <li>Bronze medal 2012 - Argentina</li>
                                                     <li>Silver medal 2013 - Argentina</li>
