@@ -20,8 +20,8 @@ export default class Math extends React.Component{
                         </p>
                         <h3><strong>Contributions: </strong></h3>
                         <ol>
-                            <li>I created a problem in Number Theory for the Romanian Master Olympiad
-                                 <ul><li>You can find the problem (#4) here: <a target="_blank" href="http://rmms.lbi.ro/rmm2018/index.php?id=problems_math">Submitted Problem</a></li></ul>
+                            <li>I created a problem in Number Theory for the Romanian Master Olympiad <br></br>
+                                &rarr; You can find the problem (#4) here: <a target="_blank" href="http://rmms.lbi.ro/rmm2018/index.php?id=problems_math">Submitted Problem</a>
                             </li>
                             {/* Try to find the certificate and put it here */}
                             <li> 

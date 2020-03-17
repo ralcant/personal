@@ -11,9 +11,11 @@ div{
 ul{
     list-style-type:none;
 }
-/* ul > li{
-    size: 2;
-} */
+ul > li{
+    font-style: italic;
+    /* font-size: large; */
+    /* font-weight: 100; */
+}
 /* ol{
     list-style-type:none;
 
