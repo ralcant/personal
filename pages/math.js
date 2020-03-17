@@ -15,7 +15,7 @@ export default class Math extends React.Component{
                         <p>
                             When I was in elementary school, my mom introduced to this concept called <i>competitive math</i>. <br></br>
                             Since then, I participated in several competitions all over the country and I found out how passionate I was about it. <br></br>
-                            Later at the age of twelve, the Saco Oliveros academy offered me an scholarship to study on the capital, and this was the decision that allowed me 
+                            Later at the age of twelve, I was offered an scholarship to study in the capital by Saco Oliveros Academy, and this was the decision that allowed me 
                             to expand my horizons and show the world that I was ready to compete internationally.
                         </p>
                         <h3><strong>Contributions: </strong></h3>
