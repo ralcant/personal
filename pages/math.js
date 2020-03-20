@@ -138,7 +138,7 @@ export default class Math extends React.Component{
                                     // width={"100%"}
                                     thumbnail	
 
-                                    height={"1% "}
+                                    // height={"10% "}
                                     />
                                 </Row>
                                 <Row>
@@ -154,8 +154,9 @@ export default class Math extends React.Component{
                                     fluid = {true}
                                     // width={"100%"}
                                     thumbnail	
-
-                                    height={"1% "}
+                                    // resize = {0.5}
+                                    // width={"500"}
+                                    // height={"1% "}
                                     />
                                 </Row>
                                 <Row>
