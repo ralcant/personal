@@ -13,25 +13,34 @@ export default class Cs extends React.Component{
                 <h3><strong>The subject I wish I had found sooner</strong></h3>
                 <Row>
                     <Col xs={12} md={8}>
-                        <p>
-                            Even though I love Peru, I don't like the fact that <i>Computer Science</i> is not a subject that is usually taught in high school or even in college. It just <strong>doesn't exist</strong> there.<br></br>
-                            &#x1F826; I am trying my best to change this situation, but we are not there ... <i>yet</i>.<br></br>
-                            The first time I heard about C.S. was when I attended a <a target="_blank" href = "https://espr-camp.org/">summer camp</a> in the UK after I finished high school. 
+                        <p className="intro">
+                            Even though I love Peru, I believe that we have a lot to improve when it comes to education. <br></br>
+                            For example, <i>Computer Science</i> is not a subject that is usually taught in high school or even in college. It just <strong>doesn't exist</strong> there.
+                            I am trying my best to change this situation, and I have the vision that one day we will give CS the importance it deserves.<br></br>
+                            The first time I heard about CS was when I attended a <a target="_blank" href = "https://espr-camp.org/">summer camp</a> in the UK after I finished high school. 
                             This was a life-changing experience, because I felt like I had finally found the subject that would give me the necessary tools to help my community. <br></br>
                         </p>
                     </Col>
                     <Col xs={6} md={4}>
-                        <Image 
-                            src= "../static/computer_science.jpg"
-                            alt = "This is me!"
-                            className = "pic"
-                            rounded ={true}
-                            //roundedCircle = {true}
-                            fluid = {true}
-                        />
+                        <Row>
+                            <Image 
+                                src= "../static/computer_science.jpg"
+                                alt = "This is me!"
+                                className = "pic"
+                                rounded ={true}
+                                //roundedCircle = {true}
+                                fluid = {true}
+                            />
+                        </Row>
+                        <Row>
+                            <Col className= "text-center" >
+                                <i>Pic taken from <a target="_blank" href="https://www.petersons.com/blog/majoring-in-computer-science-is-it-for-me/">here</a></i>
+                            </Col>
+                        </Row>
+
                     </Col>
                 </Row>
-
+                <br></br>
 
                 <Row>
                     <Col>
@@ -67,8 +76,23 @@ export default class Cs extends React.Component{
                             </Col>
                         </Row>
                     </Col>
-                    <Col>
+                    <Col xs={6} md={4}>
                         {/*Here for the pics */}
+                        <Row>
+                            <Image 
+                                src= "../static/ai_doggo_robot.jpg"
+                                alt = "This is me!"
+                                className = "pic"
+                                rounded ={true}
+                                //roundedCircle = {true}
+                                fluid = {true}
+                            />
+                        </Row>
+                        <Row>
+                            <Col className= "text-center" >
+                                <i>Pic of me with a doggo, and a robot. Part of my A.I. class in Fall 2019.</i>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
 

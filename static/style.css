@@ -21,16 +21,15 @@ ul > li{
     list-style-type:none;
 
 } */
-.pic{
+/* .pic{ */
     /* display: flex; */
     /* justify-content: flex-end; */
     /* position: relative; */
     /* align-self: flex-start; */
-}
-p{
+/* } */
+.intro{
     text-align: justify;
     line-height: 1.8;
-    /* font-size: large; */
     font-size: larger;
 }
 .title{
@@ -84,10 +83,11 @@ p{
     flex-direction: row;
 }
 .middle_text{
-    /* display: flex; */
+    display: flex;
     /* align-items: center; */
     text-align: center;
-    /* background-color: blue; */
+    align-self: center;
+    background-color: blue;
 
 }
 .test{

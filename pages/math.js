@@ -14,22 +14,29 @@ export default class Math extends React.Component{
 
                 <Row>
                     <Col xs={12} md={8}>
-                        <p>
-                            When I was in elementary school, my mom introduced to this concept called <i>competitive math</i>. <br></br>
+                        <p className="intro">
+                            When I was in elementary school, my mom introduced me to this concept called <i>competitive math</i>. <br></br>
                             Since then, I participated in several competitions all over the country and I found out how passionate I was about it. <br></br>
-                            Later at the age of twelve, I was offered an scholarship to study in the capital by the Saco Oliveros Academy, and this was the decision that allowed me 
+                            Later at the age of twelve, I was offered a scholarship to study in the capital by the Saco Oliveros Academy, and this was the decision that allowed me 
                             to expand my horizons and show the world that I was ready to compete internationally.
                         </p>
                     </Col>
-                    <Col xs={6} md={4} >
-                        <Image 
-                            src= "../static/math.jpg"
-                            alt = "This is me!"
-                            className = "pic"
-                            rounded ={true}
-                            //roundedCircle = {true}
-                            fluid = {true}
-                        />
+                    <Col xs={6} md={4}>
+                        <Row>
+                            <Image 
+                                src= "../static/math.jpg"
+                                alt = "This is me!"
+                                className = "pic"
+                                rounded ={true}
+                                //roundedCircle = {true}
+                                fluid = {true}
+                            />
+                        </Row>
+                        <Row>
+                            <Col className= "text-center" >
+                                <i>Pic taken from <a target="_blank" href="https://www.wellesley.edu/news/2017/stories/node/120511">here</a></i>
+                            </Col>
+                        </Row>
                     </Col>
                 </Row>
  
@@ -122,26 +129,41 @@ export default class Math extends React.Component{
                                 </Row>
                             </Col>
                             <Col xs={6} md={4}>
-                                <Image
-                                src= "../static/imo_pic.jpg"
-                                rounded ={true}
-                                // roundedCircle = {true}
-                                fluid = {true}
-                                // width={"100%"}
-                                thumbnail	
+                                <Row>
+                                    <Image
+                                    src= "../static/imo_pic.jpg"
+                                    rounded ={true}
+                                    // roundedCircle = {true}
+                                    fluid = {true}
+                                    // width={"100%"}
+                                    thumbnail	
 
-                                height={"1% "}
-                                />
-                                <Image
-                                src= "../static/romanian_pic.jpg"
-                                rounded ={true}
-                                // roundedCircle = {true}
-                                fluid = {true}
-                                // width={"100%"}
-                                thumbnail	
+                                    height={"1% "}
+                                    />
+                                </Row>
+                                <Row>
+                                    <Col className= "text-center" >
+                                        <i>Not surprisingly, I am the one holding the peruvian flag.</i>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Image
+                                    src= "../static/romanian_pic.jpg"
+                                    rounded ={true}
+                                    // roundedCircle = {true}
+                                    fluid = {true}
+                                    // width={"100%"}
+                                    thumbnail	
 
-                                height={"1% "}
-                                />
+                                    height={"1% "}
+                                    />
+                                </Row>
+                                <Row>
+                                    <Col className= "text-center" >
+                                        <i>The peruvian team in the Romanian Master. <br></br> If you couldn't tell by now, I'm the one standing on the far right.</i>
+                                    </Col>
+                                </Row>
+                                
                             </Col>
                         </Row>
 
