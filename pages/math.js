@@ -3,38 +3,61 @@ import GeneralNav from '../components/GeneralNav'
 import Container from 'react-bootstrap/Container';
 import Layout from '../components/Layout'
 import Image from 'react-bootstrap/Image'
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row'
 export default class Math extends React.Component{
     getContent = () => {
         return(
-            <Container >
+            <Container>
                 <h1 className = "text-center title">Math</h1>
-
                 <h3><strong>I've lived in math most of my life</strong></h3>
-                <div>
-                    <div>
+
+                <Row>
+                    <Col xs={12} md={8}>
                         <p>
                             When I was in elementary school, my mom introduced to this concept called <i>competitive math</i>. <br></br>
                             Since then, I participated in several competitions all over the country and I found out how passionate I was about it. <br></br>
                             Later at the age of twelve, I was offered an scholarship to study in the capital by the Saco Oliveros Academy, and this was the decision that allowed me 
                             to expand my horizons and show the world that I was ready to compete internationally.
                         </p>
-                        <h3><strong>Contributions: </strong></h3>
-                        <ol>
-                            <li>I created a problem in Number Theory for the Romanian Master Olympiad <br></br>
-                             &#x1F826; You can find the problem (#4) here: <a target="_blank" href="http://rmms.lbi.ro/rmm2018/index.php?id=problems_math">Submitted Problem</a>
-                            </li>
-                            {/* Try to find the certificate and put it here */}
-                            <li> 
-                                I am part of the Peruvian Committee of Mathematical Olympiads.
-                            </li>
-                        </ol>
-                        <h3><strong>Awards:</strong></h3>
-                        <div className ="cont">
-                            <div className = "info_text">
-                                <ol>
-                                    <li>
-                                        <div>
-                                            <div >
+                    </Col>
+                    <Col xs={6} md={4} >
+                        <Image 
+                            src= "../static/math.jpg"
+                            alt = "This is me!"
+                            className = "pic"
+                            rounded ={true}
+                            //roundedCircle = {true}
+                            fluid = {true}
+                        />
+                    </Col>
+                </Row>
+ 
+                <Row>
+                    <Col>
+                        <Row>
+                            <Col>
+                                <h3><strong>Contributions: </strong></h3>
+                                <Row>
+                                    <ol>
+                                        <li>I created a problem in Number Theory for the Romanian Master Olympiad <br></br>
+                                            &#x1F826; You can find the problem (#4) here: <a target="_blank" href="http://rmms.lbi.ro/rmm2018/index.php?id=problems_math">Submitted Problem</a>
+                                        </li>
+                                        {/* Try to find the certificate and put it here */}
+                                        <li> 
+                                            I am part of the Peruvian Committee of Mathematical Olympiads.
+                                        </li>
+                                    </ol>
+                                </Row>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <h3><strong>Awards:</strong></h3>
+                                <Row>    
+                                    <ol>
+                                        <li>
+                                            <div>
                                                 <strong>International Math Olympiad (IMO)</strong>
                                                 <ul>
                                                     <li>Gold medal 2015 - Thailand</li>
@@ -42,38 +65,25 @@ export default class Math extends React.Component{
                                                     <li>Silver medal 2017 - Brazil</li>
                                                 </ul>
                                             </div>
-                                            {/* <div className = "info_pic">
-                                                <Image
-                                                src= "../static/imo_pic.jpg"
-                                                // rounded ={true}
-                                                roundedCircle = {true}
-                                                fluid = {true}
-                                                // width={"80%"}
-                                                // height={"100%"}
-                                                />
-                                            </div> */}
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <strong>Putnam Competition</strong>
+                                                <ul>
+                                                    <li>Honorable Mention 2019</li>
+                                                    <li>Honorable Mention 2018</li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
                                             <div>
                                                 <strong>Asian Pacific Mathematic Olympiad (APMO)</strong>
                                                 <ul>
                                                     <li>Gold Medal 2017</li>
                                                 </ul>
                                             </div>
-                                            {/* <div className = "info_pic">
-                                                <Image
-                                                src= "../static/imo_pic.jpg"
-                                                rounded ={true}
-                                                roundedCircle = {true}
-                                                fluid = {true}
-                                                />
-                                            </div> */}
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div >
+                                        </li>
+                                        <li>
                                             <div>
                                                 <strong>Iberoamerican Mathematical Olympiad</strong>
                                                 <ul>
@@ -81,36 +91,16 @@ export default class Math extends React.Component{
 
                                                 </ul>
                                             </div>
-                                            {/* <div className = "info_pic">
-                                                <Image
-                                                src= "../static/raul_alcantara_2.PNG"
-                                                rounded ={true}
-                                                roundedCircle = {true}
-                                                fluid = {true}
-                                                />
-                                            </div> */}
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className ="cont">
+                                        </li>
+                                        <li>
                                             <div>
                                                 <strong>Romanian Master of Mathematic</strong>
                                                 <ul>
                                                     <li>Bronze medal 2017 - Romania</li>
                                                 </ul>
                                             </div>
-                                            {/* <div className = "info_pic">
-                                                <Image
-                                                src= "../static/imo_pic.jpg"
-                                                rounded ={true}
-                                                roundedCircle = {true}
-                                                fluid = {true}
-                                                />
-                                            </div> */}
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
+                                        </li>
+                                        <li>
                                             <div>
                                                 <strong>Cono Sur Mathematical Olympiad</strong>
                                                 <ul>
@@ -118,10 +108,8 @@ export default class Math extends React.Component{
                                                     <li>Silver medal 2015 - Argentina </li>
                                                 </ul>
                                             </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
+                                        </li>
+                                        <li>
                                             <div>
                                                 <strong>Rioplatense Mathematical Olympiad</strong>
                                                 <ul>
@@ -129,13 +117,11 @@ export default class Math extends React.Component{
                                                     <li>Silver medal 2013 - Argentina</li>
                                                 </ul>
                                             </div>
-                                        </div>
-                                    </li>
-                                                            
-                                </ol>
-                            </div>
-
-                            <div className = "info_pic">
+                                        </li>                                           
+                                    </ol>                                    
+                                </Row>
+                            </Col>
+                            <Col xs={6} md={4}>
                                 <Image
                                 src= "../static/imo_pic.jpg"
                                 rounded ={true}
@@ -156,15 +142,13 @@ export default class Math extends React.Component{
 
                                 height={"1% "}
                                 />
-                            </div>
-                        </div>
+                            </Col>
+                        </Row>
 
-                    </div>
+                    </Col>
+                </Row>
 
-                </div>
-
-
-            </Container>
+        </Container>
 
         );
     }

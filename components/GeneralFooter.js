@@ -15,9 +15,9 @@ export default class GeneralNav extends React.Component{
             <div className="footer " id="contact">
                 <h4><strong>Contact info</strong></h4>
                 <div className = "icons">             
-                    <Col><SocialIcon  url="https://www.facebook.com/raulalfredo.alcantaracastillo" /></Col>
-                    <Col><SocialIcon  url="mailto:ralcanta@mit.edu"   /></Col>
-                    <Col><SocialIcon  url="https://github.com/ralcant"  bgColor = 'black' />  </Col>                 
+                    <Col><SocialIcon  url="https://www.facebook.com/raulalfredo.alcantaracastillo" target="_blank"/></Col>
+                    <Col><SocialIcon  url="mailto:ralcanta@mit.edu"  target="_blank" /></Col>
+                    <Col><SocialIcon  url="https://github.com/ralcant" target="_blank" bgColor = 'black' />  </Col>                 
                 </div>
                 <p><i>Cellphone: (203) 524-0315</i></p> 
             </div>

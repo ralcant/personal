@@ -4,10 +4,10 @@ body {
     /* background-color: #544581; */
     /* display: flex; */
 }
-div{
+/* div{
     display: flex;
     flex-direction: column;
-}
+} */
 ul{
     list-style-type:none;
     /* margin-left:-20px; */
@@ -71,7 +71,7 @@ p{
     display: flex;
     flex:1;
     /* background-color: red; */
-    justify-content: end;
+    justify-content: flex-end;
     /* align-self: flex-end; */
     /* align-content: flex-end; */
     padding-left: 4%;
@@ -82,4 +82,20 @@ p{
     display: flex;
     padding-bottom: 1%;
     flex-direction: row;
+}
+.middle_text{
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    /* background-color: blue; */
+
+}
+.test{
+    display: flex;
+    /* align-items: center; */
+    /* align-self: center; */
+    justify-content: center ;
+    align-content: flex-start ;
+    background-color: blue;
+    padding-left: 1%;
 }
