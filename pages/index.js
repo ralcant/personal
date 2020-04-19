@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import GeneralFooter from '../components/GeneralFooter'
 import Layout from '../components/Layout'
-
+// to start the page run "npm run dev"
 export default class Index extends React.Component{
     getContent = () => {
         return(

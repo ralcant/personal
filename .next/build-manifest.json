@@ -23,6 +23,10 @@
     "/math": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/personal": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

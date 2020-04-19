@@ -1,18 +1,18 @@
 import GeneralFooter from '../components/GeneralFooter'
 import GeneralNav from '../components/GeneralNav'
 import Container from 'react-bootstrap/Container';
+import DefaultPage from '../components/DefaultPage'
+import Layout from '../components/Layout'
 
 export default class Research extends React.Component{
+    getContent = () => {
+        return <DefaultPage/>
+    }
     render(){
         return(
-            <div>
-                <GeneralNav/>
-                <Container>
-                    
-                </Container>
-                <GeneralFooter/>
-
-            </div>
+            <Layout
+            content = {this.getContent()}
+            />
         );
     }
 }
